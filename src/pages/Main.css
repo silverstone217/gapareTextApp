@@ -1,0 +1,288 @@
+.DeskopM{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 1280px;
+    align-self: center;
+}
+.MobileM{
+    background-color: white;
+    display: flex;
+    max-width: 480px;
+    min-width: 320px;
+    height: 100vh;
+    align-self: center;
+    flex-direction: column;
+}
+.TabletM{
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    min-width: 768px;
+}
+.ComputerM{
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    min-width: 1024px;
+}
+.logout{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 10vh;
+}
+.logoutM{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 10vh;
+}
+.footer{
+    cursor: pointer;
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    align-content: center;
+    display: flex;
+    position:absolute;
+    right: 10%;
+    bottom: 10%;
+}
+.textContent{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    align-content: center;
+    display: flex;
+    position:absolute;
+    right: 10%;
+    bottom: 10%;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    padding: 0.2rem;
+}
+.textContent1{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    align-content: center;
+    display: flex;
+    position:absolute;
+    right: 7%;
+    bottom: 4%;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    padding: 0.2rem;
+    z-index: 1;
+}
+.titleMainM{
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    color: black;
+    border-radius: 10px;
+    padding: 0.4rem;
+    border-color: black;
+}
+.textareaM{
+    height: 250px;
+    width: 150px;
+    font-size: 16px;
+    color: black;
+    border-radius: 10px;
+    padding: 0.4rem;
+    border-color: black;
+}
+.titleMain{
+    height: 60px;
+    width: 350px;
+    font-size: 16px;
+    color: black;
+    border-radius: 10px;
+    padding: 0.4rem;
+    border-color: black;
+}
+.textarea{
+    height: 350px;
+    width: 350px;
+    font-size: 16px;
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+    margin-top: 10px;
+}
+.btnv{
+    background-color: dodgerblue;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    
+}
+.btnc{
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    
+}
+.btnvM{
+    background-color: dodgerblue;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+}
+.btncM{
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10rem;
+    background-color: dodgerblue;
+    height: 60px;
+    width: 100%;
+}
+.welcome{
+    margin-top: 10px;
+    width: 40vh;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.centerMain{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.centerMainM{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.idxM{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto ;
+    overflow-x: hidden;
+}
+.idx{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto ;
+    overflow-x: hidden;
+    
+}
+.hdtxt{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: space-between;
+    width: 30%;
+    margin-bottom: 7px;
+    
+}
+.hdtxtM{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 5px;
+}
+.txtTitleM{
+    width: 330px;
+    overflow: hidden;
+    height: 22px;
+}
+.txtTitle{
+    width: 330px;
+    overflow: hidden;
+    height: 25px;
+}
+.bsBtnM{
+    display: flex;
+    margin-top: 2px;
+    margin-left: 48%;
+    justify-content: space-between;
+    width: 50px;
+    cursor: pointer;
+}
+.bsBtn{
+    display: flex;
+    margin-top: 2px;
+    margin-left: 26.7%;
+    justify-content: space-between;
+    width: 50px;
+    cursor: pointer;
+    
+}
+.txtContent{
+    width: 60vh;
+    overflow-x: hidden;
+    overflow-y: auto;;
+    max-height: 25vh;
+    min-height: 10vh;
+    word-wrap: break-word;
+    
+}
+.txtContentM{
+    width: 30vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+    max-height: 20vh;
+    min-height: 10vh;
+    
+}
+.txtsep{
+    border-bottom : 0.5px solid black;
+    width: 60vh;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.txtsepM{
+    border-bottom : 0.5px solid black;
+    width: 30vh;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.userProfile{
+    width: 50%;
+    border-radius: 50%;
+}

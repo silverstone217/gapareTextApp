@@ -1,0 +1,144 @@
+.Deskop{
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 1280px;
+    align-self: center;
+}
+.Tablet{
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 768px;
+    align-self: center;
+}
+.Mobile{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 480px;
+    min-width: 320px;
+    height: 100vh;
+    align-self: center;
+}
+.Computer{
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    min-width: 1024px;
+}
+.emailCenterM{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border-radius: 15px;
+    border-width: 10px;
+    border-color: brown;
+    padding: 0.3rem;
+    margin-bottom: 0.7rem;
+    background-color: white;
+    column-gap: 0.3rem;
+
+}
+.emailCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-radius: 15px;
+    border-width: 2rem solid;
+    border-color: brown;
+    padding: 0.3rem;
+    margin-bottom: 0.7rem;
+    background-color: white;
+    column-gap: 0.3rem;
+    box-shadow: 0 0 0 1px white;
+
+}
+.inputCenter{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.emailM{
+    border: none;
+    width: 250px;
+    height: 20px;
+    font-size: 16px;
+    color: black;
+}
+.passwordM{
+    border: none;
+    width: 250px;
+    height: 20px;
+    font-size: 16px;
+    color: black;
+}
+.email{
+    border: none;
+    padding-left: 0.2rem;
+    width: 80%;
+    height: 25px;
+    color: black;
+}
+.password{
+    border: none;
+    width: 80%;
+    height: 25px;
+    font-size: 16px;
+    color: black;
+}
+.enter{
+    width: 10%;
+    height: 5%;
+    background-color: lightgreen;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.enterM{
+    width: 25%;
+    height: 6%;
+    background-color: dodgerblue;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+.sign{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.sub{
+    font-size: 15px;
+    cursor: pointer;
+    color: azure;
+    font-weight: bold;
+}
